@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">DemoIntent</string>
+    <string name="informe_o_user_name">Informe o user name</string>
+    <string name="informe_a_senha">Informe a senha</string>
+    <string name="conectar">Conectar</string>
+    <string name="sou_novo_usu_rio">Sou novo usuário</string>
+    <string name="criar">criar</string>
+</resources>
