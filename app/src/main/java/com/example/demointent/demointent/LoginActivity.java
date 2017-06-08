@@ -1,6 +1,7 @@
 package com.example.demointent.demointent;
 
 import android.content.Intent;
+import android.os.PersistableBundle;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -46,5 +47,12 @@ public class LoginActivity extends AppCompatActivity {
                 edtUsuario.setText(data.getStringExtra("nome"));
                 break;
         }
+    }
+
+    @Override
+    public void onSaveInstanceState(Bundle outState, PersistableBundle outPersistentState) {
+        outState.putString("nome", edtUsuario.getText().toString());
+        super.onSaveInstanceState(outState, outPersistentState);
+
     }
 }
