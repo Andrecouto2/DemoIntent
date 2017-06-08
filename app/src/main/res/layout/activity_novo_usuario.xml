@@ -28,7 +28,7 @@
         style="@style/StylePassword" />
 
     <Button
-        android:id="@+id/btnConectar"
+        android:id="@+id/btnCriar"
         style="@style/StyleDefault"
         android:text="@string/criar"/>
 
